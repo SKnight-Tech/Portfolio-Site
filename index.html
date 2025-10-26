@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sebastian Knight – Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-  <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
-    <h1 class="brand">Sebastian Knight</h1>
-    <nav class="nav">
-      <a href="index.html" class="nav-link active">Home</a>
-      <a href="projects.html" class="nav-link ">Projects</a>
-      <a href="contact.html" class="nav-link ">Contact</a>
-    </nav>
-  </div>
-</header>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
+      <h1 class="brand">Sebastian Knight</h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link active" aria-label="Home">Home</a>
+        <a href="projects.html" class="nav-link" aria-label="Projects">Projects</a>
+        <a href="contact.html" class="nav-link" aria-label="Contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
   <section class="hero">
     <div class="container">
       <h1>Junior Software Developer</h1>
-      <p>Software Engineering graduate focused on logic, clean code and practical problem‑solving. I build small, real‑world apps in Python and JavaScript and document them clearly for others to use and review.</p>
+      <p>Software Engineering graduate focused on logic, clean code and practical problem‑solving. I build small, real‑world apps in Python and JavaScript, and document them clearly for others to use and review.</p>
       <div class="cta-row">
         <a class="btn" href="projects.html">View Projects</a>
-        <a class="btn btn-ghost" href="Sebastian_Knight_CV_2025_Final_4Projects.pdf" target="_blank">Download CV</a>
-        <a class="btn btn-ghost" href="https://github.com/SKnight-Tech" target="_blank" rel="noopener">GitHub</a>
-        <a class="btn btn-ghost" href="https://www.linkedin.com/in/yourprofile/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="Sebastian_Knight_CV_2025_Final_4Projects.pdf" target="_blank" rel="noopener" aria-label="Download CV">Download CV</a>
+        <a class="btn btn-ghost" href="https://github.com/SKnight-Tech" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/sebastian-knight-dev/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
       </div>
     </div>
   </section>
@@ -34,7 +34,7 @@
   <main class="container">
     <section class="section">
       <h2>About Me</h2>
-      <p>I’m a recent graduate in Software Engineering with hands‑on projects in web development and problem‑solving. I enjoy building tools that are simple, fast and useful, and I’m currently focusing on front‑end logic and lightweight back‑end concepts.</p>
+      <p>I’m a recent Software Engineering graduate with hands‑on projects in web development and logic-driven design. I enjoy building tools that are fast, simple, and useful — currently focusing on front-end JavaScript and lightweight back-end work.</p>
       <div class="kv">
         <div>Python</div><div>JavaScript</div><div>HTML</div><div>CSS</div><div>GitHub</div><div>Problem‑Solving</div>
       </div>
@@ -44,14 +44,18 @@
       <h2>Highlight</h2>
       <div class="grid">
         <article class="card">
-          <div class="card-media"><img src="assets/hero_cover.jpg" alt="Featured project"/></div>
+          <div class="card-media">
+            <img src="assets/hero_cover.jpg" alt="Screenshot of the MindVault memory trainer project" />
+          </div>
           <div class="card-body">
             <h3 class="card-title">MindVault – Visual Memory Trainer (JavaScript)</h3>
-            <p class="card-desc">Interactive app to train visual memory using images. Includes timed reveal, tile reveal, multiple‑choice, optional spaced repetition, progress charts, CSV export and timed focus sessions.</p>
-            <ul class="card-tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Chart.js</li></ul>
+            <p class="card-desc">Interactive app to train visual memory using images. Includes timed reveal, tile reveal, multiple‑choice mode, optional spaced repetition, progress charts, CSV export, and focus session tracking.</p>
+            <ul class="card-tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Chart.js</li>
+            </ul>
             <div class="card-actions">
-              <a class="btn" href="https://github.com/SKnight-Tech/mindvault" target="_blank" rel="noopener">View Code</a>
-              <a class="btn btn-ghost" href="https://youruser.github.io/mindvault/" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn" href="https://github.com/SKnight-Tech/mindvault" target="_blank" rel="noopener" aria-label="View MindVault Code on GitHub">View Code</a>
+              <a class="btn btn-ghost" href="https://sknight-tech.github.io/mindvault/" target="_blank" rel="noopener" aria-label="View Live Demo of MindVault">Live Demo</a>
             </div>
           </div>
         </article>
@@ -61,7 +65,8 @@
 
   <footer class="footer">
     <div class="container">
-      <p>© Sebastian Knight · <a href="https://github.com/SKnight-Tech" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/yourprofile/" target="_blank" rel="noopener">LinkedIn</a></p>
+      <p>© Sebastian Knight · <a href="https://github.com/SKnight-Tech" target="_blank" rel="noopener">GitHub</a> · 
+        <a href="https://www.linkedin.com/in/sebastian-knight-dev/" target="_blank" rel="noopener">LinkedIn</a></p>
     </div>
   </footer>
 </body>
