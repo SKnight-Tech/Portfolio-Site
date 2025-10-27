@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 24px;
-  align-items: start;
 }
 
 /* 🔄 Updated .card layout to stack vertically inside each grid tile */
@@ -18,7 +17,7 @@
 }
 
 .card:hover {
-  transform: scale(1.015);
+  transform: scale(1.01);
 }
 
 /* 🔄 Updated image styling to fit horizontally compact cards */
